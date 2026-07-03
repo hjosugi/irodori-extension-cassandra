@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "extensionId": "irodori.cassandra",
   "visibility": "public",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "connector": {
     "id": "cassandra.connector",
     "engine": "cassandra",
@@ -57,6 +57,11 @@
       "saslScram",
       "clientCertificate",
       "kerberos",
+      "awsDefaultCredentialsChain",
+      "awsSigV4",
+      "awsProfile",
+      "webIdentity",
+      "awsAssumeRole",
       "customDriverOptions"
     ],
     "tls": "optional",
